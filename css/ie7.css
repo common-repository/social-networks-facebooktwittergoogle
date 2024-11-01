@@ -1,0 +1,25 @@
+.socialCenterOuter {
+	position: fixed;
+	display: block;
+	top: 50%;
+	height: auto;
+	overflow: visible;
+}
+/*
+.socialCenterInner {
+	margin-top: expression( -this.clientHeight / 2 +"px");
+}
+*/
+/* fixed top */
+
+.socialCenterOuter.socialFixed {
+	position: fixed;
+	display: block;
+	top: 0;
+	height: auto;
+	overflow: visible;
+}
+
+.socialFixed .socialCenterInner {
+	margin-top: 0;
+}
